@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rock Paper Scissors Game</title>
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <link rel="shortcut icon" type="image/x-icon" href="./assets/imgs/favicon.ico" />
+
+    </head>
+    <body>
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+
+        <div class="sets">
+            <span>Sets:</span> <span id="sets-played">0</span>
+        </div>
+
+        <div class="score-board">
+            <div id="user-label" class="badge-user">User</div>
+            <div id="computer-label" class="badge-computer">Comp</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+
+        <div class="result">
+            <p>Let's play!</p>
+        </div>
+
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="./assets/imgs/rock.png" alt="Rock image">
+            </div>
+
+            <div class="choice" id="paper">
+                <img src="./assets/imgs/paper.png" alt="Paper image">
+            </div>
+
+            <div class="choice" id="scissors">
+                <img src="./assets/imgs/scissors.png" alt="Scissors image">
+            </div>
+        </div>
+
+        <p id="action-message">
+            Make your move.
+        </p>
+
+        <script src="./assets/js/app.js"></script>
+    </body>
+</html>
